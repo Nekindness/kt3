@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: rgba(225, 248, 255, 1);
+}
+
+#app {
+  padding: 30px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  border: none;
+}
+
+.btn-add,
+.btn-edit,
+.btn-delete,
+.btn-comments,
+.btn-hide,
+.btn-close {
+  padding: 0 20px;
+  min-width: 120px;
+  height: 45px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  background: rgba(33, 108, 255, 1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-delete,
+.btn-close {
+  background: rgba(255, 33, 139, 1);
+}
